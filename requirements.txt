@@ -1,0 +1,20 @@
+1.Create Flask Server Code
+2.Create a directory named flask_app.
+3.Inside the flask_app directory, create a new file named app.py.
+4.Inside the flask_app directory, create a new file named requirements.txt:
+ Flask==2.0.1
+5.Set Up and Run the Flask Application
+6.Open a command prompt or terminal.
+7.Navigate to the flask_app directory:
+ cd path/to/your/flask_app
+8.Set up a virtual environment:
+ python -m venv venv
+9.Activate the virtual environment:
+On Windows:
+ venv\Scripts\activate
+10.Install the required dependencies:
+ pip install -r requirements.txt
+11.Run the Flask application:
+ python app.py
+12.You should see output indicating the server is running, such as:
+* Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
